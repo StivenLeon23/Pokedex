@@ -1,0 +1,52 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+                 
+body {
+    font-family: ''Kumbh Sans'', sans-serif;
+    background-color: #D9042B;
+    
+}
+
+.Ini {
+    margin-top: 20px;
+    color: #D5E2F2;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
+.Ini img{
+    margin-right: 15px;
+    width: 75px;
+    height: 75px;
+}
+
+.Busqueda{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+
+.Busqueda input{
+    background-color: #D9042B;
+    color: #D9C6BF ;
+    width: 500px;
+    margin: 5px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+
+
+#app {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    background-color: white;
+    border-radius: 20px;
+    margin: 50px;
+    box-shadow: 0px 1px 10px;
+    color: #1A1826;
+}
