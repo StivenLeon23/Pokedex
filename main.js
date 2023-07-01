@@ -32,7 +32,7 @@ function insertarPokemon () {
         pokeImagen.src = result[14][1].front_default
 
         const pokemonName =document.createElement ('h1')
-        pokemonName.innerText = `Name: ${result[10][1]} | id: ${result[6][1]}`
+        pokemonName.innerText = `Name: ${result[10][1]} | Id: ${result[6][1]}`
 
         const pokemonType = document.createElement ('h3')
         pokemonType.innerText = `Type: ${result[16][1][0].type.name}`
